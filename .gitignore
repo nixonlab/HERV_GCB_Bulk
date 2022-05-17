@@ -1,3 +1,15 @@
+.github/
+.snakemake
+runs
+samples
+data
+resources
+databases
+refs
+benchmarks
+logs
+results
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
