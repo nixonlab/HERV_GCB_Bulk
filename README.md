@@ -22,6 +22,6 @@ Chicago
 
 ``` snakemake --profile profiles/aws/ all ```
 
-**To modify pipeline::* 
+**To modify pipeline:**
 
 Change SRA sample table. 
