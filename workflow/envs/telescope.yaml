@@ -14,4 +14,4 @@ dependencies:
   - pandas=1.1.3
   - pip=21.3.1
   - pip:
-    - git+git://github.com/mlbendall/telescope.git@703b71478ac318925b3891f61b5c4dd563c94f23
+    - git+https://github.com/mlbendall/telescope.git@703b71478ac318925b3891f61b5c4dd563c94f23

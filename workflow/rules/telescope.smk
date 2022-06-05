@@ -25,7 +25,7 @@ rule telescope:
          --max_iter 200\
          --updated_sam\
          --outdir {params.outdir}\
-         --stranded_mode RF\
+         --stranded_mode F\
          {input[0]}\
          {input[1]}\
          2>&1 | tee {log[0]}

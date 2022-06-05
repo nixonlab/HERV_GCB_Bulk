@@ -41,8 +41,8 @@ rule all:
         expand("results/completed/{samid}_completed.txt", samid=SAMPLES)
 
 # Rules to include
-include: "rules/fasterq_dump.smk"
 include: "rules/references.smk"
+include: "rules/fasterq_dump.smk"
 include: "rules/fastqc.smk"
 include: "rules/star_index.smk"
 include: "rules/star_alignment.smk"

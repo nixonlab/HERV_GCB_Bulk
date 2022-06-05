@@ -9,8 +9,7 @@ rule star_alignment:
     conda:
         "../envs/star.yaml"
     input:
-        R1 = "samples/{samid}_1.fastq.gz",
-        R2 = "samples/{samid}_2.fastq.gz",
+        single = "samples/{samid}.fastq.gz",
         genome = config['indexes']['star']
     output:
         aligned_bam = "results/star_alignment/{samid}/{samid}_GDC38.Aligned.out.bam"
@@ -25,7 +24,7 @@ rule star_alignment:
         STAR\
             --runThreadN {threads}\
             --genomeDir {input.genome}\
-            --readFilesIn {input.R1} {input.R2}\
+            --readFilesIn {input.single}\
             --outSAMattributes NH HI NM MD AS XS\
             --outSAMtype BAM Unsorted\
             --outFileNamePrefix {params.out_prefix}\

@@ -54,8 +54,8 @@ annotations:
 
 ##### rule-specific resources and parameters #####
 
-# FASTERQ DUMP 
-fasterq_dump_tmp: "/home/bhs4002/athena/projects/scAZTE/runs/{s}"
+# FASTERQ DUMP
+fasterq_dump_tmp: "/efs/users/bsingh/myfsx/HERV_GCB_Bulk/runs/"
 
 # FASTQC
 fastqc_threads: 24
