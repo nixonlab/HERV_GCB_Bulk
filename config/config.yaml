@@ -78,5 +78,5 @@ telescope_threads: 2
 
 # FINAL OUTPUT dirname
 
-efs_dir_star: "/efs/projects/HERV_GCB_Bulk/star_algn/"
-efs_dir_telescope: "/efs/projects/HERV_GCB_Bulk/telescope/"
+efs_dir_star: "/efs/projects/HERV_GCB_Bulk_Agirre/star_algn/"
+efs_dir_telescope: "/efs/projects/HERV_GCB_Bulk_Agirre/telescope/"
