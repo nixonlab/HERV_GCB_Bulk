@@ -42,8 +42,12 @@ rule all:
 
 # Rules to include
 include: "rules/references.smk"
-include: "rules/fasterq_dump.smk"
+# include: "rules/fasterq_dump.smk"
+include: "rules/fasterq_dump_paired.smk"
 include: "rules/fastqc.smk"
 include: "rules/star_index.smk"
-include: "rules/star_alignment.smk"
+# include: "rules/star_alignment.smk"
+include: "rules/star_alignment_paired.smk"
 include: "rules/telescope.smk"
+
+# To run single-end files, comment out the paired rules, and uncomment the single. 
