@@ -1,5 +1,5 @@
 # sample list (generated using config/format_samples.py)
-sample_csv: "config/SraRunTable.csv"
+sample_csv: "config/SraRunTable_Agirre.csv"
 
 # Column names for sample and run
 colname_SAMPLE: "BioSample"
